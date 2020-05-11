@@ -1,0 +1,2 @@
+mettre les pins de la chips 1x offset pour fitter un zif socket
+refaire le pinout pour pouvoir activer le 2timer sans fils
