@@ -24,8 +24,8 @@ If this wire is in open circuit (not connect to ground or any source), it will b
 
 **Simple Connection 'Diagram' when using External Switch:**
 
-| Middle pin (Pin#2) | >Wire | >Switch (one end)
-| Switch (other end) | >Ground |  
+| Middle pin (Pin#2) | Wire | Switch (one end)
+| Switch (other end) | Ground |  
 
 The switch must be a toggle switch (SPST or SPDT) if you want to switch from one tune to another without holding the button, otherwise if you want to change tune only when the button is held, use a momentary switch.
 
