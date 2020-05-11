@@ -23,6 +23,7 @@ If this wire is in open circuit (not connect to ground or any source), it will b
 # [Clic HERE to Obtain the BM2Timer][]
 
 **Simple Connection 'Diagram' when using External Switch:**
+
 | Middle pin (Pin#2) | --> Wire | --> Switch (one end) |
 | Switch (other end) | --> Ground |
 
