@@ -5,10 +5,8 @@ This is used to put two tuning files of 32kb on a 64kb chip (XXX512 chip) and sw
 between one or the other tune file.
 
 The BM2Timer V1.1 (and newer) has 2 methods for changing between tunes:
--Blue 2Pin Jumper (method which requires no additional equipment)
--External switch (method which requires a switch *not included*)
-
-# [Clic HERE to Obtain the BM2Timer][]
+- Blue 2Pin Jumper (method which requires no additional equipment)
+- External switch (method which requires a switch *not included*)
 
 **Blue 2Pin Jumper Method**
 With this Method you simply need to move the 2Pin blue jumper from pins 1-2 to pins 2-3 to switch between the two tunes.
@@ -19,6 +17,8 @@ With this Method you simply need to move the 2Pin blue jumper from pins 1-2 to p
 It can has a single wire lead coming off of it using the middle pin (pin #2).
 - When sorting this wire to ground you will run on the tune #2.
 If this wire is in open circuit (not connect to ground or any source), it will be on tune #1.
+
+# [Clic HERE to Obtain the BM2Timer][]
 
 **Simple Connection 'Diagram' when using External Switch:**
 | Middle pin (Pin#2) | --> Wire | --> Switch (one end) |
