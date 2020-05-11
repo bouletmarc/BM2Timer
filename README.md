@@ -1,8 +1,8 @@
 # BM2Timer
 
 This little gem plugs into your 28-pin socket that normally takes a 27C256 chip.
-This is used to put two tuning files of 32kb on a 64kb chip (XXX512 chip) and switch
-between one or the other tune file.
+
+This is used to put two tuning files of 32kb on a 64kb chip (XXX512 chip) and switch between one or the other tune file.
 
 The BM2Timer V1.1 (and newer) has 2 methods for changing between tunes:
 - Blue 2Pin Jumper (method which requires no additional equipment)
@@ -24,8 +24,9 @@ If this wire is in open circuit (not connect to ground or any source), it will b
 
 **Simple Connection 'Diagram' when using External Switch:**
 
-| Middle pin (Pin#2) | Wire | Switch (one end)
-| Switch (other end) | Ground |  
+Middle pin (Pin#2) -> Wire -> Switch (one end)
+
+Switch (other end) -> Ground
 
 The switch must be a toggle switch (SPST or SPDT) if you want to switch from one tune to another without holding the button, otherwise if you want to change tune only when the button is held, use a momentary switch.
 
@@ -38,6 +39,7 @@ The switch must be a toggle switch (SPST or SPDT) if you want to switch from one
 - XXX512
 
 This is the requirement if the model you use aren't listed above:
+
 Any 28pin Chips that end by (or has) the '512' marking on them, that are '64kb X8' and that the Pin #1 represent 'A15' will works.
 
 If it has the 512 marking (its also a 64kb X8 chip) but the pin #1 doesn't represent A15 it'll not be a compatible chip!
@@ -50,6 +52,7 @@ The second Tune are using chip addressing 0000-7FFF
 # HOW TO BURN A CHIP FOR THE BM2Timer
 
 With the software that goes with your eprom programmer (chip burner), you will start by selecting your chip model.
+
 1. Erase the chip (if it is blank avoid this step)
 2. Open your Tune #2 file (yes #2)
 3. Burn this file from 0000 to 7FFF
