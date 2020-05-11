@@ -8,11 +8,15 @@ The BM2Timer V1.1 (and newer) has 2 methods for changing between tunes:
 - Blue 2Pin Jumper (method which requires no additional equipment)
 - External switch (method which requires a switch *not included*)
 
+
+
 **Blue 2Pin Jumper Method**
 
 With this Method you simply need to move the 2Pin blue jumper from pins 1-2 to pins 2-3 to switch between the two tunes.
 - When the jumper is on the pins 1-2, it's for tune #2 (use 0000 to 7FFF chip region)
 - When the jumper is on the pins 2-3, it's for tune #1 (use 8000 to FFFF chip region)
+
+
 
 **External Switch Method**
 
