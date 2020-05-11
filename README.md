@@ -50,8 +50,8 @@ If it has the 512 marking (its also a 64kb X8 chip) but the pin #1 doesn't repre
 
 # ADDRESSING INFORMATIONS
 
-The first Tune are using chip addressing 8000-FFFF
-The second Tune are using chip addressing 0000-7FFF
+- The first Tune are using chip addressing 8000-FFFF
+- The second Tune are using chip addressing 0000-7FFF
 
 # HOW TO BURN A CHIP FOR THE BM2Timer
 
