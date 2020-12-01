@@ -73,7 +73,7 @@ With the software that goes with your eprom programmer (chip burner), you will s
 - 2x 14Pins Male to Male Round pin header**
 - 2x 14Pins Male to Female Header** OR 1x 28Pins DIP Socket
 
-**These parts usually come in 40Pins rows that you have to cut to the desired lenght**
+****These parts usually come in 40Pins rows that you have to cut to the desired lenght**
 
 # BM2Timer V1.1
 ![alt tag](https://github.com/bouletmarc/BM2Timer/blob/master/BM2Timer/V1.1/1566977469810_img_3888.jpg)
