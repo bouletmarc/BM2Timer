@@ -64,6 +64,17 @@ With the software that goes with your eprom programmer (chip burner), you will s
 5. Burn this file from 8000 to FFFF
 6. Now your chip is ready to be used, it includes your two files!
 
+# Parts List to build your BM2Timer PCB
+
+- 1x 10K Ohms 1/6w Resistor(Can be almost any value actually, doesn't need to be perfectly 10K Ohms)
+- 1x 2Pins Jumper
+- 1x Female Jumper Wire(Only if you use Extrenal Button switch)
+- 1x 3Pins Male Angle Header**
+- 2x 14Pins Male to Male Round pin header**
+- 2x 14Pins Male to Female Header** OR 1x 28Pins DIP Socket
+
+**These parts usually come in 40Pins rows that you have to cut to the desired lenght**
+
 # BM2Timer V1.1
 ![alt tag](https://github.com/bouletmarc/BM2Timer/blob/master/BM2Timer/V1.1/1566977469810_img_3888.jpg)
 
